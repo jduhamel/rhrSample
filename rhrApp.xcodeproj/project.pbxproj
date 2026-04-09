@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7967CBFDBABB7F06EF265DD1 /* rhrAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4AF66ADBDA9AE62F1E836D /* rhrAppApp.swift */; };
+		A7D3B4C5F5870B8F3B90E4B0 /* BackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F432FD7720D2FEFFE6A8B8C /* BackgroundTaskManager.swift */; };
+		AC106F58DC2B59CD19DBD22E /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E6A2A8680D4C83DB8C4454 /* AppState.swift */; };
+		B005F4D5F8140946546B8975 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725549DA981A66307FDA82E8 /* HealthKitManager.swift */; };
+		E51E1FF444BB7C30BE16BEE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F974CE32249DEF93B57CA785 /* Preview Assets.xcassets */; };
+		E71A145A015AD896B6B1CFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB412C5F11399CC9C4E411F5 /* Assets.xcassets */; };
+		FA14D53DD0E9FE65DEC6DF39 /* RunHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4AE649BCF1F61ACDA9776E /* RunHistoryStore.swift */; };
+		FCCC7BB16947D3367EFA2308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A6F04DFC6CE01D8384872A /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C924B252CD671B778FD22E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1EF2940D45ABEE6ED74E04A6 /* rhrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rhrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3341BE8FBAE4B3662DC71DA3 /* rhrApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rhrApp.entitlements; sourceTree = "<group>"; };
+		54E6A2A8680D4C83DB8C4454 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		725549DA981A66307FDA82E8 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		9A4AF66ADBDA9AE62F1E836D /* rhrAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rhrAppApp.swift; sourceTree = "<group>"; };
+		9F432FD7720D2FEFFE6A8B8C /* BackgroundTaskManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTaskManager.swift; sourceTree = "<group>"; };
+		B0A6F04DFC6CE01D8384872A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CB412C5F11399CC9C4E411F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F974CE32249DEF93B57CA785 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF4AE649BCF1F61ACDA9776E /* RunHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunHistoryStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03036372AA7380DA81B7D416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EF2940D45ABEE6ED74E04A6 /* rhrApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7EE036E3301D958FFC8D5C = {
+			isa = PBXGroup;
+			children = (
+				D8B20ECF97C7C4B8D034B22F /* rhrApp */,
+				03036372AA7380DA81B7D416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B20ECF97C7C4B8D034B22F /* rhrApp */ = {
+			isa = PBXGroup;
+			children = (
+				54E6A2A8680D4C83DB8C4454 /* AppState.swift */,
+				CB412C5F11399CC9C4E411F5 /* Assets.xcassets */,
+				9F432FD7720D2FEFFE6A8B8C /* BackgroundTaskManager.swift */,
+				B0A6F04DFC6CE01D8384872A /* ContentView.swift */,
+				725549DA981A66307FDA82E8 /* HealthKitManager.swift */,
+				0C924B252CD671B778FD22E1 /* Info.plist */,
+				3341BE8FBAE4B3662DC71DA3 /* rhrApp.entitlements */,
+				9A4AF66ADBDA9AE62F1E836D /* rhrAppApp.swift */,
+				FF4AE649BCF1F61ACDA9776E /* RunHistoryStore.swift */,
+				DE1550004C8B19A3B58B2532 /* Preview Content */,
+			);
+			path = rhrApp;
+			sourceTree = "<group>";
+		};
+		DE1550004C8B19A3B58B2532 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F974CE32249DEF93B57CA785 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E101F83CEBBB93C99914411 /* rhrApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1582E210548976A85158E3 /* Build configuration list for PBXNativeTarget "rhrApp" */;
+			buildPhases = (
+				90763E0276A8A22B4348944E /* Sources */,
+				D374B440F2E25F557D7047E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rhrApp;
+			packageProductDependencies = (
+			);
+			productName = rhrApp;
+			productReference = 1EF2940D45ABEE6ED74E04A6 /* rhrApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02107848AE2C01A5719ED446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = 474DD9623555FD42F157E50A /* Build configuration list for PBXProject "rhrApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BE7EE036E3301D958FFC8D5C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 03036372AA7380DA81B7D416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E101F83CEBBB93C99914411 /* rhrApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D374B440F2E25F557D7047E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71A145A015AD896B6B1CFBB /* Assets.xcassets in Resources */,
+				E51E1FF444BB7C30BE16BEE9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90763E0276A8A22B4348944E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC106F58DC2B59CD19DBD22E /* AppState.swift in Sources */,
+				A7D3B4C5F5870B8F3B90E4B0 /* BackgroundTaskManager.swift in Sources */,
+				FCCC7BB16947D3367EFA2308 /* ContentView.swift in Sources */,
+				B005F4D5F8140946546B8975 /* HealthKitManager.swift in Sources */,
+				FA14D53DD0E9FE65DEC6DF39 /* RunHistoryStore.swift in Sources */,
+				7967CBFDBABB7F06EF265DD1 /* rhrAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13182E662E14EBEE1D4FD6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = M3R639BY7T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rhrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		69F9AB90410943FADE96250C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rhrApp/rhrApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = "\"rhrApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ7AA3U6HT;
+				INFOPLIST_FILE = rhrApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RHR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Reads your sleep and heart-rate data to compute morning resting metrics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Does not write Health data.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kflow.rhrapp--explicit--io.kflow.rhrapp";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		87E91ECB421FB28DECCBD841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = rhrApp/rhrApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_ASSET_PATHS = "\"rhrApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ7AA3U6HT;
+				INFOPLIST_FILE = rhrApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RHR;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Reads your sleep and heart-rate data to compute morning resting metrics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Does not write Health data.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.kflow.rhrapp--explicit--io.kflow.rhrapp";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B2F312B616C4357BD66A4E0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = M3R639BY7T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rhrApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474DD9623555FD42F157E50A /* Build configuration list for PBXProject "rhrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13182E662E14EBEE1D4FD6B0 /* Debug */,
+				B2F312B616C4357BD66A4E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF1582E210548976A85158E3 /* Build configuration list for PBXNativeTarget "rhrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E91ECB421FB28DECCBD841 /* Debug */,
+				69F9AB90410943FADE96250C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02107848AE2C01A5719ED446 /* Project object */;
+}
